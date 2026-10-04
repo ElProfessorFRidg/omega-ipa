@@ -1,0 +1,32 @@
+{
+  "name": "Omega IPA Repo",
+  "identifier": "party.jailbreak.omega.ipa",
+  "subtitle": "Personal sideload source",
+  "description": "A self-hosted AltStore/SideStore source. Add your own IPAs below.",
+  "iconURL": "https://raw.githubusercontent.com/ElProfessorFRidg/omega-ipa/main/icon.png",
+  "website": "https://ElProfessorFRidg.github.io/omega-ipa/",
+  "tintColor": "#2e5aac",
+  "apps": [
+    {
+      "name": "Example App",
+      "bundleIdentifier": "com.example.app",
+      "developerName": "You",
+      "subtitle": "Replace this entry with your own IPA",
+      "localizedDescription": "Template entry. Duplicate it per IPA. Host the .ipa in this repo's Releases and put its URL in downloadURL.",
+      "iconURL": "https://ElProfessorFRidg.github.io/omega-ipa/icon.png",
+      "tintColor": "#2e5aac",
+      "category": "other",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-04",
+          "localizedDescription": "First version.",
+          "downloadURL": "https://github.com/ElProfessorFRidg/omega-ipa/releases/download/v1.0.0/Example.ipa",
+          "size": 0,
+          "minOSVersion": "15.0"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
